@@ -1,0 +1,37 @@
+.cart-item{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width:60vw;
+    margin:0 auto;
+    /* background-color: aquamarine; */
+}
+
+#total{
+    text-align: center;
+    background-color: #645CFF;
+    color:white;
+    width:20%;
+    margin:0 auto;
+}
+
+button{
+    background-color: #645CFF;
+    border-radius: 10px;
+    color: beige;
+    border: none;
+    
+}
+
+.quan-container{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#clear-cart{
+    margin-left:45rem;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
